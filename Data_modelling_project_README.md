@@ -2,10 +2,8 @@
 
 A Power BI project that turns a **23-table dataset with many-to-many relationships** into a clean **star schema** (6 dimension tables, 6 fact tables), validates the numbers against control totals, and secures the report with **region-based row-level security (RLS)**.
 
-<!-- Add a screenshot of the model view at images/data_model.png, then uncomment the next line -->
-<!-- ![Star schema model view](images/data_model.png) -->
+<img width="1192" height="842" alt="image" src="https://github.com/user-attachments/assets/741d85b1-87f3-494f-9b09-a623338facec" />
 
-<!-- Dataset source: add the dataset name and link here (for example, "Source: <name>, <link>") -->
 
 ## Problem
 
@@ -59,7 +57,3 @@ To test: in Power BI Desktop, go to **Modeling > View as**, select the role, and
 ## Skills Demonstrated
 
 Dimensional modeling (star schema) · Power Query (M) · DAX · Data validation with control totals · Row-level security · Debugging fan-out in a data model
-
-## Author
-
-**Sathvik Sreedhara** · [LinkedIn](https://www.linkedin.com/in/sathvik-sreedhara-0a37272b6) · [GitHub](https://github.com/Sathvik-sreedhara)
